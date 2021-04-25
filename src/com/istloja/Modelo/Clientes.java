@@ -142,15 +142,12 @@ public class Clientes {
     }
 
     public Date getFechaActualizacion() {
-        // txtfechaCliente.setText(utilidades.devolverFechaFormato(utilidades.devolverFechaactual()))
         System.out.println("gecha actulixaciom"+fechaActualizacion);
         return fechaActualizacion ;//= Date.valueOf(utilidades.devolverFechaFormato(utilidades.devolverFechaactual()));
         
     }
 
     public void setFechaActualizacion(Date fechaActualizacion) {
-        //fechaActualizacion = Date.valueOf(utilidades.devolverFechaFormato(utilidades.devolverFechaactual()));
-       // 
        this.fechaActualizacion = fechaActualizacion;
     }
     

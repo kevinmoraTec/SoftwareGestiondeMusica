@@ -6,6 +6,7 @@
 package com.istloja.ModelTables;
 
 import com.istloja.Modelo.Clientes;
+import com.istloja.Modelo.Proveedores;
 
 /**
  *
@@ -13,6 +14,7 @@ import com.istloja.Modelo.Clientes;
  */
 public interface ComunicacionTablas {
     void clikCliente (Clientes c);  
+    void ClikProvedores(Proveedores p);
     
     
 }

@@ -79,7 +79,7 @@ public class ClienteBD {
             con.close();
             registrar = true;
         } catch (SQLException E) {
-            System.out.println("Error al Editar Cliente (Cliente bd)" + E.getMessage());
+            System.out.println("Error al Editar Provedores (Provedores bd)" + E.getMessage());
         }
         return registrar;
     }
@@ -101,7 +101,7 @@ public class ClienteBD {
             con.close();
 
         } catch (SQLException E) {
-            System.out.println("Error al Eliminar Cliente (Cliente bd)" + E.getMessage());
+            System.out.println("Error al Eliminar Provedores (Provedores bd)" + E.getMessage());
         }
         return registrar;
     }

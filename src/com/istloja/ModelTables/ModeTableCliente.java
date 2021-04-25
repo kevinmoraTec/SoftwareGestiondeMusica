@@ -39,9 +39,6 @@ public class ModeTableCliente extends AbstractTableModel {// Como AbstractTableM
         {// O TAMBIEN seteamos los valores. 
             // obtenemos la fila1,fila2,fila3,fila4
 
-//     public String[] nombre_Columnas = {"CEDULA","NOMBRE","APELLIDO","
-//DIRECCION","TELEFONO","EDAD","ARTISTA","MUSICA","GENERO","AÑO",
-//"VINCULO","FECHA"};// Definim
             Clientes clientes = this.clientes.get(rowIndex);
 
             switch (columnIndex) {
